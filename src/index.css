@@ -111,6 +111,10 @@
 .nav-style {
   height: 80px;
 }
+.nav-font {
+  overflow: hidden;
+  padding: 1px;
+}
 .logo {
   height: 72px;
   width: 78px;
