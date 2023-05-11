@@ -15,7 +15,7 @@ const NavbarCo = ({ search }) => {
               </Navbar.Brand>
             </Link>
             {!window.location.pathname.includes("/movie/") ? (<>
-            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Toggle aria-controls="navbarScroll" className="navbar-toggle" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="me-auto my-2 my-lg-0"

@@ -196,6 +196,14 @@
   line-height: 30px;
   color: #555555;
 }
+.navbar-toggle:focus{
+  box-shadow: none !important;
+}
+@media screen and (max-width:990px) {
+.nav-style{
+  height: 100% !important;
+}
+}
 @media screen and (max-width:550px) {
   .card-wrapper {
     width: 80%;
