@@ -1,0 +1,58 @@
+import {
+  breakfast1,
+  breakfast2,
+  lunch1,
+  lunch2,
+  dinner1,
+  dinner2,
+} from "./assets";
+export const items = [
+  {
+    id: Math.random(),
+    title: "وجبة فطار",
+    description: "وصف الفطار",
+    price: 50,
+    category: "فطار",
+    imgUrl: breakfast1,
+  },
+  {
+    id: Math.random(),
+    title: "وجبة فطار",
+    description: "وصف الفطار",
+    price: 50,
+    category: "فطار",
+    imgUrl: breakfast2,
+  },
+  {
+    id: Math.random(),
+    title: "وجبة غداء",
+    description: "وصف الغداء",
+    price: 150,
+    category: "غداء",
+    imgUrl: lunch1,
+  },
+  {
+    id: Math.random(),
+    title: "وجبة غداء",
+    description: "وصف الغداء",
+    price: 150,
+    category: "غداء",
+    imgUrl: lunch2,
+  },
+  {
+    id: Math.random(),
+    title: "وجبة عشاء",
+    description: "وصف العشاء",
+    price: 60,
+    category: "عشاء",
+    imgUrl: dinner1,
+  },
+  {
+    id: Math.random(),
+    title: "وجبة عشاء",
+    description: "وصف العشاء",
+    price: 60,
+    category: "عشاء",
+    imgUrl: dinner2,
+  },
+];
